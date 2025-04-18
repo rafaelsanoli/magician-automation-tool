@@ -1,0 +1,6 @@
+import sqlite3
+
+conn = sqlite3.connect("config/settings.db")
+cursor = conn.cursor()
+cursor.execute("CREATE TABLE IF NOT EXISTS workflows (id INTEGER PRIMARY KEY, name TEXT, steps TEXT)")
+conn.commit()

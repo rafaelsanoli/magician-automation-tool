@@ -1,0 +1,22 @@
+{
+  "name": "Scraping + E-mail",
+  "steps": [
+    {
+      "module": "web",
+      "action": "scrape_data",
+      "params": {
+        "url": "https://exemplo.com",
+        "selectors": {"titulo": "h1"}
+      }
+    },
+    {
+      "module": "email",
+      "action": "send",
+      "params": {
+        "to": "destino@teste.com",
+        "subject": "Dados Coletados",
+        "body": "Confira os dados anexos."
+      }
+    }
+  ]
+}
