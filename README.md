@@ -48,8 +48,9 @@
 
 ```bash
 pip install pyautogui schedule pytest
-```
 Ou use pip install -r requirements.txt se disponível.
+```
+
 ---
 
 
