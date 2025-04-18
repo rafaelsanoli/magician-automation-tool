@@ -118,6 +118,8 @@ magician-automation-tool/
 
 -Sistema de plugins/extensões
 
+---
+
 ### 🧪 Rodando os Testes
 
 Este projeto utiliza pytest. Execute os testes com:
